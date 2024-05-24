@@ -1,0 +1,36 @@
+Python Collections (Arrays)
+There are four collection data types in the Python programming language:
+
+List is a collection which is ordered and changeable. Allows duplicate members.
+Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+Dictionary is a collection which is ordered** and changeable. No duplicate members.
+
+*Set items are unchangeable, but you can remove and/or add items whenever you like.
+
+-------------------
+In the Python programming language, "element" and "item" are terms used to refer to different things depending on the context.
+In general, an "element" refers to one individual component of a collection, such as a list, tuple, or set. For example, if you have a list
+of numbers, each number in the list would be considered an element of that list.
+
+An "item," on the other hand, is a more general term that can refer to any individual object or value in Python, regardless of whether
+it is part of a collection or not. For example, a variable containing a single value would be considered an item.
+In some cases, "element" and "item" may be used interchangeably, but it is generally more accurate to use "element" when referring to
+components of a collection and "item" when referring to individual values in general.
+It's important to note that different Python developers or documentation sources may use these terms in slightly different ways,
+so it's always a good idea to check the context to make sure you understand what is being referred to.
+----------------------
+A framework, in the context of software development, is a pre-established and reusable set of code that provides a structure for developing
+specific types of software applications. It serves as a foundation that developers can build upon to create their applications more efficiently.
+Frameworks often include predefined functions, classes, and utilities that address common tasks, allowing developers to focus on the unique
+aspects of their application rather than reinventing the wheel for every project.
+Examples of frameworks include web application frameworks (e.g., Django, Ruby on Rails), testing frameworks (e.g., JUnit, pytest), and GUI
+frameworks (e.g., Qt, UIKit).
+------------
+   PARAMETER ARGUMENT
+An argument is a value or an expression that you provide when calling a function or method. It's the actual data that you pass into the
+function's parameters.
+
+   NONE
+-> None: This part indicates that the function returns None. In Python, if a function does not have a return statement or has return None,
+it implicitly returns None.
